@@ -1,0 +1,64 @@
+Create a modern, premium, and highly responsive landing page for a law firm named "HireLaw®" using React, Next.js, and Tailwind CSS. The design must be clean, sophisticated, and professional, exactly matching the following layout sections and styling guidelines:
+
+### 1. General Styling & Design Tokens
+- **Color Palette:**
+  - Background: Off-white/Cream (`#F9F8F3` or similar warm light background).
+  - Primary/Text: Deep charcoal/black (`#111111`) for maximum contrast and premium feel.
+  - Accent Color: A soft, muted pastel lavender/light purple (`#B4ACE3` or similar) used for specific section backgrounds and playful duotone image overlays.
+- **Typography:** Sleek sans-serif font (like Inter or Plus Jakarta Sans). High contrast between bold, elegant headings and clean, readable body text.
+- **Responsiveness:** Full mobile-first responsiveness. Stack columns on mobile/tablet, and expand to grid layouts on desktop with proper padding/margins (`px-4 md:px-12 lg:px-24`).
+
+### 2. Header / Navigation Bar
+- Sticky transparent/light navigation bar.
+- Left: Logo "HireLaw®" in bold sans-serif.
+- Center (Desktop): Nav links (Home, Sourcing, Evaluation, Communication).
+- Right: A clean "Sign In" button with a subtle border or minimal styling.
+- Mobile: Include a responsive hamburger menu.
+
+### 3. Hero Section
+- **Content:** Large centered heading: "Trusted Legal Solutions for Your Peace of Mind", followed by a short subtitle: "At HireLaw, we are committed to providing exceptional legal services tailored to your unique needs."
+- **CTA:** A prominent, solid black rounded button: "Schedule Meet".
+- **Visuals:** A showcase grid of 6 professional team portraits. Each portrait should have a distinct pastel-colored block background (alternating purple, pink, green, blue, pink, orange/black) with a duotone cutout effect, exactly like modern premium agency websites.
+
+### 4. About Us Section
+- Split layout (or stacked on mobile).
+- Left: Small uppercase label "ABOUT US". Main heading "About HireLaw®" with descriptive text about being a full-service law firm.
+- Include a list of features with pills/badges: "Personalized attention", "Proven track record of success", "Transparent and honest communication".
+- Right: A high-quality minimalist visual element (e.g., an elegant white lily flower or modern abstract line art) on a clean background.
+
+### 5. Client Logotypes Bar
+- A horizontal, infinitely scrolling or beautifully spaced grid of premium law firm/corporate logos (e.g., Weil, Jones Day, DLA Piper, Skadden, etc.) rendered in monochrome/greyscale with low opacity.
+
+### 6. Our Mission Section
+- A full-width section with a dramatic, low-contrast greyscale background image of classic neoclassical law building columns/architecture.
+- Left-aligned text overlaying the image: Small label "OUR MISSION", followed by "Trusted Legal Solutions" and the mission statement text.
+
+### 7. Our Services Section
+- Header: Small label "OUR SERVICE", main heading "We Offer Expertise In", and a "Schedule Meet" button aligned to the right on desktop.
+- **Service Cards:** A 3-column grid (1 column on mobile) featuring:
+  1. Corporate Law
+  2. Family Law
+  3. Real Estate Law
+- Each card must have a clean border, a minimalist line-art icon matching the practice area, a bold title, and a brief description.
+
+### 8. Client Testimonials Section
+- Full-width background in soft pastel lavender/purple.
+- Left: Small label "CLIENT TESTIMONIALS" and heading "What Our Clients Are Saying".
+- Right/Grid: Two elegant testimonial blocks side-by-side on desktop. Inside each block: a crisp blockquote text, followed by the client's avatar (circular), name, and company title (e.g., David L. Williams - CEO, Williams Technologies).
+
+### 9. Our Attorneys Section
+- Header: "Our Lawyers Are Dedicated To Upholding The Highest Standards Of Ethics & Professionalism".
+- Grid layout showing 3 (or more) vertical card profiles of attorneys (David L. Patel, Sophia R. Chen, Michael O. Brown).
+- Image cards should be dark/moody with text overlays at the bottom showing the Attorney's name and their specific expertise (e.g., Real Estate & Property Law), featuring an elegant top-right arrow icon on hover.
+
+### 10. Footer Section
+- Deep black background (`#000000`) with high-contrast white text.
+- Large stylized, low-opacity "HireLaw®" watermarked text at the bottom.
+- Top part of the footer split into:
+  - Left: Logo and a short closing bio text.
+  - Right: Vertical navigation links (Home, About Us, Practice Areas, Attorneys, Testimonials).
+- Very bottom: Copyright text on the left, social media icons (Instagram, Facebook, LinkedIn) on the right.
+
+Ensure all transitions are smooth, hover states on buttons are intuitive (e.g., slight opacity changes or scale-ups), and Tailwind classes are modular, semantic, and clean.
+
+IMPORTANT: I have placed the exact layout image in the project root folder named "design-reference.webp". Please analyze the visual structure, layout spacing, and aesthetic style of "design-reference.webp" and implement the exact same design using React and Tailwind CSS.
